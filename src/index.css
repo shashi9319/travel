@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.App {
+  height: 100vh;
+  max-width: 700px;
+  margin: 0 auto;
+}
+.header {
+  height: 50px;
+  background-color: magenta;
+  text-align: center;
+  padding: 1em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.header h5 {
+  margin-top: 1em;
+  font-size: 1.3rem;
+}
+
+.card {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 1em;
+  border: 1px solid;
+  margin-top: 0.5em;
+}
+.card-img {
+  width: 100%;
+  align-self: center;
+  padding: 0 0.2em;
+  border-radius: 10px;
+}
+.card-details {
+  margin-left: 0.5em;
+}
+
+.location {
+  display: flex;
+  gap: 2em;
+}
+.location p {
+  margin: 0;
+}
+.location a {
+  /* font-size: 0.7em; */
+  align-items: center;
+  color: gray;
+}
+.location-icon {
+  color: magenta;
+  width: 10px;
+  margin-top: 0.2em;
+}
+.location-details {
+  letter-spacing: 3px;
+}
+h2 {
+  margin: 0.2em;
+}
+.date {
+  font-weight: 700;
+  margin: 2em 0 0.5em 0;
+}
+.desc {
+  margin-top: 0.2em;
+}
